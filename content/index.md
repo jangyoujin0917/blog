@@ -3,10 +3,10 @@ share: "true"
 title: Home
 ---
 # Author
-This is a blog of the Youjin Jang, undergraduate student of [KAIST](https://kaist.ac.kr).
-Contents is about basic mathematics, CS(Computer Science) major, and EE(Electrical Engineering) major.
+이 블로그는 [KAIST](https://kaist.ac.kr) 학부생이 공부한 내용을 정리하는 블로그입니다.
+주 내용은 기초 수학, CS(전산학) 전공, EE(전기전자) 전공 내용입니다.
 
-# Subjects
+# 과목
 
 ![[Subjects/index|index]]
 

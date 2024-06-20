@@ -30,6 +30,12 @@ tags:
 > $$
 > 0 < |x-c| < \delta \Longrightarrow |f(x)-L|<\varepsilon
 > $$
+> 이 때, 이 극한을 다음과 같이 표기할 수 있다.
+> $$
+> \lim_{x \to c}f(x)=L
+> $$
+
+
  
 
 [^1]: https://www.britannica.com/science/fluxion

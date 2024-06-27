@@ -26,7 +26,7 @@ tags:
 
 ### 정의
 > [!Definition] 엡실론-델타 논법
-> 지점 $c$를 포함하는 열린 구간 $I$에 대해서, 함수 $f$는 점 $c$를 제외한 열린 구간 $I$에서 정의되어 있다. $x$가 $c$로 접근할 때 $f$의 **극한**은, 모든 수 $\varepsilon > 0$에 대해서, 다음을 만족하는 상응하는 수 $\delta > 0$가 존재한다.
+> 지점 $c$를 포함하는 열린 구간 $I$에 대해서, 함수 $f$는 점 $c$를 제외한 열린 구간 $I$에서 정의되어 있다. $x$가 $c$로 접근할 때 $f$의 **극한**은, 모든 실수 $\varepsilon > 0$에 대해서, 다음을 만족하는 상응하는 실수 $\delta > 0$가 존재한다.
 > $$
 > 0 < |x-c| < \delta \Longrightarrow |f(x)-L|<\varepsilon
 > $$
@@ -42,8 +42,10 @@ tags:
 
 > 모든 실수 $\varepsilon>0$에 대해서, 다음을 만족하는 대응되는 $\delta>0$의 존재를 보이면 된다.
 > $$0<|x-2|<\delta \Longrightarrow |(2x+1)-5|<\varepsilon$$
-
-
+> $|(2x+1)-5| = |2x-4| = 2|x-2| < \varepsilon$
+> Let $\displaystyle\delta=\frac{\varepsilon}{2}$,
+> $\displaystyle0<|x-2|<\delta=\frac{\varepsilon}{2} \Longrightarrow 2|x-2|<\varepsilon$
+> 모든 양수 $\varepsilon$에 대해 조건을 만족하는 $\delta=\varepsilon / 2$가 존재하므로, 주어진 극한값을 증명하였다.
 
 ## 극한 법칙 (Limit Laws)
  

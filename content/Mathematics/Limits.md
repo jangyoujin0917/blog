@@ -41,10 +41,13 @@ tags:
 
 
 > 모든 실수 $\varepsilon>0$에 대해서, 다음을 만족하는 대응되는 $\delta>0$의 존재를 보이면 된다.
+> 
 > $$0<|x-2|<\delta \Longrightarrow |(2x+1)-5|<\varepsilon$$
+> 
 > $|(2x+1)-5| = |2x-4| = 2|x-2| < \varepsilon$
-> Let $\displaystyle\delta=\frac{\varepsilon}{2}$,
-> $\displaystyle0<|x-2|<\delta=\frac{\varepsilon}{2} \Longrightarrow 2|x-2|<\varepsilon$
+> 
+> Let $\displaystyle\delta=\frac{\varepsilon}{2}$, $\displaystyle0<|x-2|<\delta=\frac{\varepsilon}{2} \Longrightarrow 2|x-2|<\varepsilon$
+> 
 > 모든 양수 $\varepsilon$에 대해 조건을 만족하는 $\delta=\varepsilon / 2$가 존재하므로, 주어진 극한값을 증명하였다.
 
 ## 극한 법칙 (Limit Laws)

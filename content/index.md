@@ -7,8 +7,11 @@ title: Home
 주 내용은 기초 수학, CS(전산학) 전공, EE(전기전자) 전공 내용입니다.
 
 # 과목
-
-![[Subjects/index|index]]
+### 전체 보기
+- [[Subjects/index|Subjects]]
+### 작성 중
+- [[MAS101|MAS101 미적분학 1]]
+### 작성 완료
 
 # Projects
 - [[Tichu Counter]]

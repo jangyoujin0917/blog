@@ -40,6 +40,10 @@ tags:
 > $\displaystyle\lim_{x \to 2} (2x+1)=5$임을 엡실론-델타 논법으로 증명하시오.
 
 
+> 모든 실수 $\varepsilon>0$에 대해서, 다음을 만족하는 대응되는 $\delta>0$의 존재를 보이면 된다.
+> $$0<|x-2|<\delta \Longrightarrow |(2x+1)-5|<\varepsilon$$
+
+
 
 ## 극한 법칙 (Limit Laws)
  

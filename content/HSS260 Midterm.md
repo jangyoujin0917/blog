@@ -146,7 +146,7 @@ title: 언어학 중간고사
 		- word initially before nasal consonant (gnostic [nastɪk])
 		- before a syllable-final nasal consonant (design [dəzãɪn])
 - Many → one
-	- Ex. English schwa rule (unstressed vowel
+	- Ex. English schwa rule (unstressed vowel)
 	- /i/ /ɪ/ /e/ /ɛ/ /æ/ /a/ /o/ → [ə]
 - One → many
 	- German word-final devoicing

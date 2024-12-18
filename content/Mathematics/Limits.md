@@ -1,6 +1,5 @@
 ---
 share: "false"
-title: 극한
 tags:
   - Article/MAS
 ---

@@ -1,6 +1,7 @@
 ---
 tags:
   - Article/MAS
+title: Limits | 극한
 ---
 이 글은 과목 [[MAS101|미적분학 1]]의 일부입니다. 이 글은 현재 일변수함수 $f: \mathbb{R} \to \mathbb{R}$만을 다룹니다.
 

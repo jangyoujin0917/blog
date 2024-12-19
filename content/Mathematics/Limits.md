@@ -48,9 +48,9 @@ tags:
 > 
 > Let $\displaystyle\delta=\frac{\varepsilon}{2}$, $\displaystyle0<|x-2|<\delta=\frac{\varepsilon}{2} \Longrightarrow 2|x-2|<\varepsilon$
 > 
-> 모든 양수 $\varepsilon$에 대해 조건을 만족하는 $\delta=\varepsilon / 2$가 존재하므로, 주어진 극한값을 증명하였다.
+> 모든 양수 $\varepsilon$에 대해 조건을 만족하는 $\delta=\varepsilon / 2$가 존재하므로, 주어진 극한을 증명하였다.
 
 ## 극한 법칙 (Limit Laws)
- 
+ 극한의 정의를 이용하여, 
 
 [^1]: https://www.britannica.com/science/fluxion

@@ -9,6 +9,7 @@ tags:
 ## Limit Laws | 극한 법칙
  극한의 정의를 이용하여, 다음과 같은 극한 법칙을 유도할 수 있다.
  > [!Theorem] 극한 법칙
+ > 
 > 지점 $c$를 포함하는 열린 구간 $I$에 대하여, 함수 $f$과 $g$는 지점 $c$를 제외한 구간 $I$에서 잘 정의되어 있다. $\lim\limits_{x\to c}f(x)=L$, $\lim\limits_{x\to c}g(x)=M$일 때, 다음이 성립한다.
 > 1. $\lim\limits_{x \to c}(f(x)+g(x))=L+M$
 > 2. $\lim\limits_{x \to c}(f(x)-g(x))=L-M$

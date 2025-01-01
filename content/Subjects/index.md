@@ -3,7 +3,7 @@ share: "true"
 title: Subjects
 ---
 - [[MAS101|MAS101 미적분학 1]]
-- MAS102
+- [[MAS102|MAS102 | 미적분학 2]]
 - MAS109
 - MAS201
 - [[CS204|CS204 이산구조]]
@@ -14,7 +14,10 @@ title: Subjects
 - CS300
 - CS311
 - CS320
+- CS322
 - CS376
 - EE201
 - EE202
 - EE204
+- EE210
+- EE304

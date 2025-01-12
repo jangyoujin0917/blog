@@ -92,7 +92,8 @@ tags:
 > > Let $\displaystyle\delta={\varepsilon}^{2}$, $\displaystyle0<x<\delta={\varepsilon}^{2} \Longrightarrow |\sqrt{x}|=\sqrt{x}<\sqrt{\varepsilon^{2}}=\varepsilon$
 > >
 > > 모든 양수 $\varepsilon$에 대해 조건을 만족하는 $\delta=\varepsilon^{2}$가 존재하므로, 주어진 극한을 증명하였다.
-## Limits involving Infinity | 무한대 극한
+## Limits involving Infinity | 무한대를 포함한 극한
+### 무한대로 접근하는 극한
  또한, $x$가 양의 무한대($+\infty$)나 음의 무한대($-\infty$)로 접근할 때의 극한도 정의할 수 있다.
  
 > [!note] $x$가 양의 무한대로 접근
@@ -114,6 +115,10 @@ tags:
 > $$
 > \lim_{x \to -\infty}f(x)=L
 > $$
+
+이 경우에도 일반적인 [[Limits#Epsilon-Delta Argument 엡실론-델타 논법|엡실론-델타 논법]]과 같은 형태의 극한 법칙을 유도할 수 있다.
+
+### 양의 무한대/음의 무한대로 발산
 
 
 

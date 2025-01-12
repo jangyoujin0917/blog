@@ -40,18 +40,15 @@ tags:
 다음 정의를 통해, 극한값이 맞는지를 증명할 수 있다. 모든 양수 $\varepsilon$에 대해, 그에 상응하는 $\delta$가 있음을 보이면 된다.
 > [!Example]
 > $\displaystyle\lim_{x \to 2} (2x+1)=5$임을 엡실론-델타 논법으로 증명하시오.
-
-
-> 모든 실수 $\varepsilon>0$에 대해서, 다음을 만족하는 대응되는 $\delta>0$의 존재를 보이면 된다.
-> 
-> $$0<|x-2|<\delta \Longrightarrow |(2x+1)-5|<\varepsilon$$
-> 
-> $|(2x+1)-5| = |2x-4| = 2|x-2| < \varepsilon$
-> 
-> Let $\displaystyle\delta=\frac{\varepsilon}{2}$, $\displaystyle0<|x-2|<\delta=\frac{\varepsilon}{2} \Longrightarrow 2|x-2|<\varepsilon$
-> 
-> 모든 양수 $\varepsilon$에 대해 조건을 만족하는 $\delta=\varepsilon / 2$가 존재하므로, 주어진 극한을 증명하였다.
-
+> > 모든 실수 $\varepsilon>0$에 대해서, 다음을 만족하는 대응되는 $\delta>0$의 존재를 보이면 된다.
+> >
+> > $$0<|x-2|<\delta \Longrightarrow |(2x+1)-5|<\varepsilon$$
+> >
+> > $|(2x+1)-5| = |2x-4| = 2|x-2| < \varepsilon$
+> >
+> > Let $\displaystyle\delta=\frac{\varepsilon}{2}$, $\displaystyle0<|x-2|<\delta=\frac{\varepsilon}{2} \Longrightarrow 2|x-2|<\varepsilon$
+> >
+> > 모든 양수 $\varepsilon$에 대해 조건을 만족하는 $\delta=\varepsilon / 2$가 존재하므로, 주어진 극한을 증명하였다.
 ## One-sided Limit | 좌극한과 우극한
 ### 정의
  위에서 정의한 극한은 점 $c$를 포함하는 열린 구간에서 정의된 함수를 사용하여서, $x$가 $c$에 양쪽으로 접근하는 상황이었다. 그러나, 점 $c$에서 한쪽만 정의되어 있는 함수에 대해서도, 좌극한과 우극한을 사용하여 극한을 정의할 수 있다.
@@ -67,7 +64,6 @@ tags:
 > $$
 
  > [!Definition] 우극한
->  
 >  열린 구간 $c<x<b$에서 정의되어 있는 함수 $f$에 대해서, $x$가 $c$로 접근할 때 $f$의 **우극한**은, 모든 실수 $\varepsilon > 0$에 대해서, 다음을 만족하는 상응하는 실수 $\delta > 0$가 존재한다.
 > $$
 > c < x < c+\delta \Longrightarrow |f(x)-L|<\varepsilon
@@ -80,7 +76,6 @@ tags:
 좌극한과 우극한의 정의에 따라, 다음 정리가 참이다.
 
  > [!info] 정리
->  
 >  지점 $c$를 포함하는 열린 구간 $I$에 대해서, 함수 $f$는 점 $c$를 제외한 열린 구간 $I$에서 정의되어 있다. 이때, $c$에서 함수 $f(x)$의 극한이 $L$이라는 것은 $c$에서의 함수 $f(x)$의 좌극한과 우극한이 모두 $L$로 존재한다는 것과 동치이다. 즉, 수식으로 쓰면 다음과 같다.
 > $$
 > \lim_{x \to c}f(x)=L \Longleftrightarrow \lim_{x \to c^{-}}f(x)=\lim_{x \to c^{+}}f(x)=L

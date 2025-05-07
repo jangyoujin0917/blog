@@ -1,3 +1,7 @@
+---
+share: "true"
+title: 강화학습개론 중간
+---
 ### 1. Markov Decision Process (MDP)
 #### Markov Property
 - State is **Markov** if

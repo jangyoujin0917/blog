@@ -28,6 +28,11 @@ jobs:
         run: npm ci
       - name: Build Quartz
         run: npx quartz build
+      - name: Preload upload-artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: dummy
+          path: README.md
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:

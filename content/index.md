@@ -7,6 +7,3 @@ title: Home
 
 # 과목
 - [[Subjects/index|Subjects]]
-
-# Projects
-- [[Tichu Counter]]

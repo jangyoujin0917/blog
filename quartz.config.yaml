@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Youjin's Note
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -12,6 +12,7 @@ configuration:
     - private
     - templates
     - .obsidian
+    - "**/CLAUDE.md"
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
@@ -36,10 +37,10 @@ configuration:
         gray: "#646464"
         darkgray: "#d4d4d4"
         dark: "#ebebec"
-        secondary: "#7b97aa"
+        secondary: "#8fb8d8"
         tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        highlight: "rgba(143, 159, 169, 0.15)"
+        textHighlight: "#779cbb44"
   links:
     markdownLinkResolution: shortest
   contentIndex:
@@ -93,7 +94,7 @@ plugins:
   - source: "@quartz-community/latex"
     enabled: true
     options:
-      renderEngine: katex
+      renderEngine: typst
     order: 80
   - source: "@quartz-community/citations"
     enabled: false
@@ -218,9 +219,7 @@ plugins:
   - source: "@quartz-community/footer"
     enabled: true
     options:
-      links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+      links: {}
     layout:
       position: footer
       priority: 50

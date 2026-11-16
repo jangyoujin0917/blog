@@ -1,3 +1,7 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+// Override Obsidian's default yellow highlight
+:root {
+  --text-highlight-bg: rgba(143, 159, 169, 0.15);
+}

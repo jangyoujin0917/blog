@@ -111,7 +111,7 @@ plugins:
   - source: "@quartz-themes/core"
     enabled: true
     options:
-      theme: default
+      theme: vercel-geist
       mode: both
   - source: "@quartz-community/explicit-publish"
     enabled: false
@@ -276,8 +276,6 @@ layout:
     folder:
       exclude:
         - reader-mode
-      positions:
-        right: []
     tag:
       exclude:
         - reader-mode

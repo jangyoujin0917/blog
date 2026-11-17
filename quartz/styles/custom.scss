@@ -5,3 +5,31 @@
 :root {
   --text-highlight-bg: rgba(143, 159, 169, 0.15);
 }
+
+// vercel-geist: replace the blue point color with the purple used by tags
+// (tag color = hsl(var(--accent-h) 258, 88%, 66%)).
+// custom.scss lives in the lowest CSS layer, so !important is needed to beat the theme layer.
+:root {
+  // tag color (theme default: 88% / 66%) — softened
+  --accent-s: 75% !important;
+  --accent-l: 70% !important;
+
+  --vercel-blue-200: hsl(258, 90%, 93%) !important;
+  --vercel-blue-300: hsl(258, 85%, 87%) !important;
+  --vercel-blue-400: hsl(258, 80%, 80%) !important;
+  --vercel-blue-500: hsl(258, 75%, 70%) !important;
+  --vercel-blue-600: hsl(258, 62%, 62%) !important;
+  --vercel-blue-700: hsl(258, 52%, 52%) !important;
+  --vercel-blue-800: hsl(258, 50%, 36%) !important;
+  --vercel-blue-900: hsl(258, 60%, 16%) !important;
+}
+
+// vercel-geist light mode fix: the ported theme keeps the dark-mode
+// background/text mapping (black bg, white text) in light mode.
+:root[saved-theme="light"] {
+  --background-1: #ffffff !important;
+  --background-2: #fafafa !important;
+  --background-3: #eaeaea !important;
+  --text-1: #111111 !important;
+  --text-2: #666666 !important;
+}

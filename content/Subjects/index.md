@@ -1,64 +1,56 @@
 ---
-share: "true"
-title: 과목
+title: Subjects
 ---
-수강한 과목을 내용별로 분류한 목록입니다. 각 과목 페이지는 관련 Topic을 학습 순서대로 연결한 목차입니다.
+Courses I have taken, grouped by content. Each course page is a table of contents that links the relevant topics in learning order.
 
-## 수학 (Mathematics)
-### 공학수학
-- [[MAS101|MAS101 미적분학 I]]
-- [[MAS102|MAS102 미적분학 II]]
-- [[MAS109|MAS109 선형대수학개론]]
-- [[MAS201|MAS201 응용미분방정식]]
+## Mathematics
+### Logic and Discrete Mathematics
+- [[HSS105|HSS105 Logic]] (TODO)
+- [[CS204|CS204 Discrete Mathematics]] (Writing)
+### Engineering Mathematics
+- [[MAS101|MAS101 Calculus I]] (TODO)
+- [[MAS102|MAS102 Calculus II]] (TODO)
+- [[MAS109|MAS109 Introduction to Linear Algebra]] (TODO)
+- [[MAS201|MAS201 Applied Differential Equations]] (TODO)
 
-### 논리 · 이산수학
-- [[HSS105|HSS105 논리학]]
-- [[CS204|CS204 이산구조]]
+## Computer Science
+### Data Structures and Algorithms
+- [[CS206|CS206 Data Structures]] (TODO)
+- [[EE209|EE209 Data Structures and Algorithms for Electrical Engineering]] (TODO)
+- [[CS300|CS300 Introduction to Algorithms]] (TODO)
+### Theory of Computation and Programming Languages
+- [[CS322|CS322 Formal Languages and Automata]] (TODO)
+- [[CS220|CS220 Programming Principles]] (TODO)
+- [[CS320|CS320 Programming Languages]] (TODO)
+- [[CS520|CS520 Theory of Programming Languages]] (TODO)
+- [[CS424|CS424 Program Reasoning]] (TODO)
+### Computer Systems
+- [[CS211|CS211 Digital Systems and Lab]] (TODO)
+- [[CS311|CS311 Computer Organization]] (TODO)
+- [[CS230|CS230 System Programming]] (TODO)
+- [[CS330|CS330 Operating Systems and Lab]] (TODO)
+- [[EE414|EE414 Embedded Systems]] (TODO)
+- [[CS360|CS360 Introduction to Databases]] (TODO)
+### Artificial Intelligence
+- [[CS376|CS376 Machine Learning]] (TODO)
+- [[CS371|CS371 Introduction to Deep Learning]] (TODO)
+- [[CS377|CS377 Introduction to Reinforcement Learning]] (TODO)
 
-## 전산학 (Computer Science)
-### 자료구조 · 알고리즘
-- [[CS206|CS206 데이타구조]]
-- [[EE209|EE209 전자공학을 위한 자료구조 및 알고리듬]]
-- [[CS300|CS300 알고리즘 개론]]
+## Electrical Engineering
+### Circuits and Electromagnetics
+- [[EE201|EE201 Circuit Theory]] (TODO)
+- [[EE204|EE204 Electromagnetics I]] (TODO)
+- [[EE304|EE304 Electronic Circuits]] (TODO)
+### Probability and Information Theory
+- [[EE210|EE210 Probability and Introductory Random Processes]] (TODO)
+- [[EE326|EE326 Introduction to Information Theory and Coding]] (TODO)
+### Signals, Communications, and Control
+- [[EE202|EE202 Signals and Systems]] (TODO)
+- [[EE432|EE432 Digital Signal Processing]] (TODO)
+- [[EE381|EE381 Control System Engineering]] (TODO)
+### Quantum Information
+- [[EE480|EE480 Introduction to Quantum Information and Computing]] (TODO)
+- [[QU511|QU511 Quantum Computing]] (TODO)
 
-### 계산 이론 · 프로그래밍 언어
-- [[CS322|CS322 형식언어및오토마타]]
-- [[CS220|CS220 프로그래밍의 이해]]
-- [[CS320|CS320 프로그래밍언어]]
-- [[CS520|CS520 프로그래밍언어이론]]
-- [[CS424|CS424 프로그램 논증]]
-
-### 컴퓨터 시스템
-- [[CS211|CS211 디지탈시스템 및 실험]]
-- [[CS311|CS311 전산기조직]]
-- [[CS230|CS230 시스템프로그래밍]]
-- [[CS330|CS330 운영체제 및 실험]]
-- [[EE414|EE414 임베디드 시스템]]
-- [[CS360|CS360 데이타베이스 개론]]
-
-### 인공지능
-- [[CS376|CS376 기계학습]]
-- [[CS371|CS371 딥러닝 개론]]
-- [[CS377|CS377 강화학습 개론]]
-
-## 전기전자 (Electrical Engineering)
-### 회로 · 전자기학
-- [[EE201|EE201 회로이론]]
-- [[EE204|EE204 전기자기학 I]]
-- [[EE304|EE304 전자회로]]
-
-### 확률 · 정보이론
-- [[EE210|EE210 확률과 기초 확률과정]]
-- [[EE326|EE326 정보이론 및 부호화 개론]]
-
-### 신호 · 통신 · 제어
-- [[EE202|EE202 신호 및 시스템]]
-- [[EE432|EE432 디지털신호처리]]
-- [[EE381|EE381 제어시스템공학]]
-
-### 양자 정보
-- [[EE480|EE480 양자 정보 및 컴퓨팅 기초]]
-- [[QU511|QU511 양자 컴퓨팅]]
-
-## 기타
-- 인문사회: 인문핵심특강〈통사론의 이해〉
+## Others
+- Humanities: Special Lecture on Humanities: Introduction to Syntax (maybe TODO; not scheduled)
